@@ -1,3 +1,5 @@
+// console.log(minuevoNombre);
+
 // mensaje en la consola
 // console.log('Hola Mundo');
 
@@ -29,5 +31,4 @@ const SALUDO = c + d;
 // console.info(x);
 
 c = 'Hola de nuevo';
-
-var miNombre = 'Francisco';
+const minuevoNombre = 'Franco';
