@@ -22,8 +22,26 @@ const saludarFlecha2 = (nombre) => {
     console.log('Hola', nombre);
 }
 
-saludarFlecha();
-saludarFlecha2('Franco');
+// saludarFlecha();
+// saludarFlecha2('Franco');
 
 const retornoSaludar = saludar('francisco', 25, true);
-console.log(retornoSaludar);
+// console.log(retornoSaludar);
+
+function sumar(a, b) {
+    return a + b;
+}
+
+// manera corta de escribir una funcion flecha con solo el return
+const sumar2 = (a, b) => a + b;
+
+function retornarAleatorio() {
+    return Math.random();
+}
+
+const returnAleatorio2 = () => Math.random();
+
+console.log(retornarAleatorio());
+console.log(returnAleatorio2());
+// console.log(sumar(1, 2));
+// console.log(sumar2(3, 4));
