@@ -4,7 +4,7 @@ const regresaTrue = () => {
 }
 
 const regresaFalse = () => {
-    console.log('regresa false');
+    console.log('regresa false'); 
     return false;
 }
 
@@ -16,7 +16,7 @@ console.log(!!false); // false
 
 console.log(!regresaFalse());
 
-console.warn('AND');
+console.warn('AND');  
 console.log(true && true); // true
 console.log(true && false); // false
 console.log(false && true); // false
@@ -28,3 +28,12 @@ console.log(regresaFalse() && regresaTrue()); // false
 console.log(regresaTrue() && regresaFalse());
 
 regresaTrue() && regresaFalse();
+
+console.warn('OR');
+console.log(true || false); // true
+console.log(false || false); // false
+
+console.log(regresaTrue() || regresaFalse());
+
+
+console.warn('Asignaciones');
