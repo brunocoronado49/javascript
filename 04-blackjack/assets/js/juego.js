@@ -101,6 +101,7 @@ btnDetener.addEventListener('click', function() {
 });
 
 btnNuevo.addEventListener('click', function() {
+    deck = [];
     deck = crearDeck();
     puntosJugador = 0;
     puntosComputadora = 0;
