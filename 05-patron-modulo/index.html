@@ -35,13 +35,11 @@
     <script src="https://underscorejs.org/underscore-umd-min.js"></script>
     <script src="./assets/js/juego.js"></script>
     <script>
+        console.log( miModulo );
 
-        function pedirCartaNueva() {
-            console.log('Nueva funcion de pedir carta');
-        }
-
-        // pedirCartaNueva();
-
+        document.querySelector('#btnNuevo').addEventListener('click', () => {
+            miModulo.nuevoJuego();
+        });
     </script>
 </body>
 </html>
