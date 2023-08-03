@@ -1,7 +1,7 @@
 // no es muy comun
 // const arr = new Array(10);
-// const arr = [];
-// console.log(arr);
+const arr = [];
+console.log(arr);
 
 const videojuegos = ['Metal Gear Solid', 'Resident Evil', 'Crash Bandicoot'];
 console.log({videojuegos});

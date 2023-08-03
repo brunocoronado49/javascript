@@ -1,4 +1,4 @@
-let nombre = 'Peter Parker';
+let nombre = 'Peter Parker'; // string
 console.log(nombre);
 
 nombre = 'Ben Parker';
@@ -9,10 +9,10 @@ nombre = `Tia May`;
 
 console.log(typeof nombre);
 
-nombre = 123;
+nombre = 123; // number
 console.log(typeof nombre);
 
-let esMarvel = true;
+let esMarvel = true; // boolean
 console.log(esMarvel);
 console.log(typeof esMarvel);
 
@@ -22,13 +22,13 @@ console.log(typeof edad);
 edad = 2.343;
 console.log(typeof edad);
 
-let superPoder;
+let superPoder; // undefind
 console.log(typeof superPoder);
 
-let soyNull = null;
+let soyNull = null; // object
 console.log(typeof soyNull);
 
 // permiten crear id unicos
-let simbolo = Symbol('a');
+let simbolo = Symbol('a'); // symbol
 console.log(simbolo);
 console.log(typeof simbolo);
