@@ -1,5 +1,6 @@
 alert('Hola Mundo');
 
+// prompt es un input en modo de alert en el navegador
 let nombre = prompt('Cual es tu nombre?');
 console.log(nombre);
 console.log('******' + nombre + '******');
